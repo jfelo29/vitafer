@@ -1,0 +1,137 @@
+.header__container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background: linear-gradient(to right, #f1c73d, #f25c05);
+ transition: all 0.3s ease;
+ gap: 100px;
+}
+
+.header__left {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ max-width: 400px;
+}
+
+.header__text {
+ display: flex;
+ flex-direction: column;
+
+ justify-content: center;
+
+ max-width: 1200px;
+ margin: 0 auto;
+ margin-bottom: auto;
+}
+
+.header__title {
+ margin-top: 125px;
+ font-size: 30px;
+ font-weight: bold;
+ margin-bottom: auto;
+
+}
+
+.header__subtitle {
+ font-size: 20px;
+ font-weight: bold;
+ margin-bottom: auto;
+ margin-top: auto;
+
+}
+
+.header__description {
+ font-size: 15px;
+ max-width: 200px;
+
+
+}
+
+.header__button {
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 200px;
+ height: 35px;
+ background-color: #f3f0f0;
+ color: #f25c05;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+
+ cursor: pointer;
+ gap: 10px;
+ transition: filter 0.3s ease;
+}
+
+.header__button:hover {
+ filter: brightness(85%);
+}
+
+
+.header__image-certification {
+ width: 10px;
+}
+
+.header__image-button {
+ width: 18px;
+
+
+
+}
+
+.header__promotion {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 50px;
+ gap: 50px;
+}
+
+.header__certification {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.header__certification img {
+ width: 50px;
+ object-fit: cover;
+ max-width: 20px;
+}
+
+.header__shipping {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+.header__shipping img {
+ width: 20px;
+}
+
+.header__img {}
+
+.header__image {
+ max-width: 200px;
+ max-height: 200px;
+ border-radius: 35px;
+ -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+ -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+ box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+ object-fit: cover;
+ transition: transform 0.3s ease;
+
+}
+
+.header__image:hover {
+ transform: scale(1.05);
+}
