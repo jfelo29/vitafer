@@ -1,0 +1,51 @@
+.calltoaction {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 100px;
+
+}
+
+.calltoaction__container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 10px;
+ background: linear-gradient(to right, #f1c73d, #f25c05);
+ padding-bottom: 50px;
+}
+
+.calltoaction__title {
+ font-size: 2.5rem;
+ font-weight: bold;
+ color: var(--color-primary);
+ text-align: center;
+ color: azure;
+}
+
+.calltoaction__subtitle {
+ font-size: 1.2rem;
+ color: var(--color-secondary);
+ text-align: center;
+ margin-bottom: auto;
+ color: azure;
+
+}
+
+.calltoaction__button {
+ isplay: flex;
+ align-items: center;
+ justify-content: center;
+ width: 200px;
+ height: 35px;
+ background-color: #f3f0f0;
+ color: #f25c05;
+ font-weight: bold;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ gap: 10px;
+ transition: filter 0.3s ease;
+}

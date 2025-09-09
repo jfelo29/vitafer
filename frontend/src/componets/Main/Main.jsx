@@ -38,7 +38,7 @@ export default function Main() {
      <h2 className="main__sold-title">1000+ </h2>
      <p className="main__sold-subtitle">vendidos</p>
     </div>
-    <div className="main__sold">
+    <div className="main__sold-middle">
      <h2 className="main__sold-title">4.9 </h2>
      <p className="main__sold-subtitle">Calificación Promedio</p>
     </div>

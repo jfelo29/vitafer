@@ -3,7 +3,7 @@ export default function Footer() {
   <footer>
    <div className="footer__container">
     <div className="footer__name">
-     <h2 className="footer__title">
+     <h2 className="footer__title-vitafer">
       VITAFER-L
      </h2>
      <p className="footer__name-subtitle">
@@ -12,7 +12,7 @@ export default function Footer() {
 
     </div>
     <div className="footer__product">
-     <h2 className="footer__product-title">
+     <h2 className="footer__title">
       Productos
      </h2>
      <p className="footer__product-subtitle">
