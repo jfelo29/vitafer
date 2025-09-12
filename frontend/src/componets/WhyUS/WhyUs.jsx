@@ -6,7 +6,7 @@ import Absorb from "../../../images/clock.png"
 import Premium from "../../../images/premium.png"
 export default function WhyUs() {
   return (
-    <whyus className="whyus">
+    <section className="whyus">
       <div className="whyus__container">
         <h2 className="whyus__title">¿Por Qué Elegir VITAFER-L?</h2>
         <p className="whyus__subtitle">
@@ -15,7 +15,7 @@ export default function WhyUs() {
       </div>
       <div className="whyus__cards">
         <div className="whyus__card">
-          <img src={Energy} alt="energia" />
+          <img src={Energy} alt="energia" className="whyus__card-image" />
 
           <h3 className="whyus__card-title">
             Energía Inmediata
@@ -25,7 +25,7 @@ export default function WhyUs() {
           </p>
         </div>
         <div className="whyus__card">
-          <img src={Health} alt="health" />
+          <img src={Health} alt="health" className="whyus__card-image" />
           <h3 className="whyus__card-title">
             Salud Cardiovascular
           </h3>
@@ -34,7 +34,7 @@ export default function WhyUs() {
           </p>
         </div>
         <div className="whyus__card">
-          <img src={Immune} alt="immune" />
+          <img src={Immune} alt="immune" className="whyus__card-image" />
           <h3 className="whyus__card-title">
             Sistema Inmune
           </h3>
@@ -43,7 +43,7 @@ export default function WhyUs() {
           </p>
         </div>
         <div className="whyus__card">
-          <img src={Adult} alt="adult" />
+          <img src={Adult} alt="adult" className="whyus__card-image" />
           <h3 className="whyus__card-title">
             uso para adultos +18 años
           </h3>
@@ -53,7 +53,7 @@ export default function WhyUs() {
           </p>
         </div>
         <div className="whyus__card">
-          <img src={Absorb} alt="absorb" />
+          <img src={Absorb} alt="absorb" className="whyus__card-image" />
           <h3 className="whyus__card-title">
             Absorción Rápida
           </h3>
@@ -62,7 +62,7 @@ export default function WhyUs() {
           </p>
         </div>
         <div className="whyus__card">
-          <img src={Premium} alt="premium" />
+          <img src={Premium} alt="premium" className="whyus__card-image" />
           <h3 className="whyus__card-title">
             Calidad Premium
           </h3>
@@ -75,6 +75,6 @@ export default function WhyUs() {
 
       </div>
 
-    </whyus>
+    </section >
   );
 }

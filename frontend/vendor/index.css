@@ -1,6 +1,7 @@
 @import url(./normalize.css);
 @import url(../src/componets/Header/header.css);
 @import url(../src/componets/Main/Main.css);
+@import url(../src/componets/Card/card.css);
 @import url(../src/componets/WhyUs/whyUs.css);
 @import url(../src/componets/CallToAction/callToAction.css);
 @import url(../src/componets/footer/Footer.css);

@@ -5,6 +5,8 @@
  justify-content: center;
  gap: 100px;
 
+
+
 }
 
 .calltoaction__container {
@@ -15,6 +17,7 @@
  gap: 10px;
  background: linear-gradient(to right, #f1c73d, #f25c05);
  padding-bottom: 50px;
+ max-width: 100%;
 }
 
 .calltoaction__title {
@@ -27,15 +30,26 @@
 
 .calltoaction__subtitle {
  font-size: 1.2rem;
- color: var(--color-secondary);
+
  text-align: center;
+ margin: auto;
  margin-bottom: auto;
  color: azure;
+ padding-left: 400px;
+ padding-right: 400px;
+
+
 
 }
 
+.calltoaction__buttons {
+ display: flex;
+ padding-top: 20px;
+ gap: 50px;
+}
+
 .calltoaction__button {
- isplay: flex;
+
  align-items: center;
  justify-content: center;
  width: 200px;

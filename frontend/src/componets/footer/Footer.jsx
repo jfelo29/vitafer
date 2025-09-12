@@ -1,3 +1,7 @@
+import whatsapp from "../../../images/whatsapporange.png"
+import mailImg from "../../../images/mail.png"
+import locationImg from "../../../images/location.png"
+import clockImg from "../../../images/clockorange.png"
 export default function Footer() {
  return (
   <footer>
@@ -23,6 +27,7 @@ export default function Footer() {
      <p className="footer__product-subtitle">Pack x3 sachets</p>
     </div>
     <div className="footer__soport">
+
      <h2 className="footer__title">
       Soporte
      </h2>
@@ -43,25 +48,25 @@ export default function Footer() {
       Contacto
      </h2>
      <div className="footer__info">
-      <img src="" alt="" />
+      <img src={whatsapp} alt="horario" className="footer__image" />
       <p className="footer__name-subtitle">
-       +56 999 888 888
+       5491123933206
       </p>
      </div>
      <div className="footer__info">
-      <img src="" alt="" />
+      <img src={mailImg} alt="horario" className="footer__image" />
       <p className="footer__name-subtitle">
        nfo@vitafer-l.com
       </p>
      </div>
      <div className="footer__info">
-      <img src="" alt="" />
+      <img src={locationImg} alt="ubicacion" className="footer__image" />
       <p className="footer__name-subtitle">
        Buenos Aires, Argentina
       </p>
      </div>
      <div className="footer__info">
-      <img src="" alt="" />
+      <img src={clockImg} alt="horario" className="footer__image" />
       <p className="footer__name-subtitle">
        Lun-sab 8AM-6PM
       </p>

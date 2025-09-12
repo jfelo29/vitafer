@@ -6,7 +6,7 @@
  background: linear-gradient(to right, #f1c73d, #f25c05);
  padding-left: 200px;
  padding-right: 200px;
-
+ padding-bottom: 50PX;
 }
 
 .whyus__container {
@@ -37,15 +37,14 @@
 .whyus__cards {
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
- grid-template-rows: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr;
  gap: 20px;
- grid-column-start: 2;
- grid-column-end: 3;
+
  justify-self: center;
  justify-content: center;
  align-items: center;
  margin-top: 50px;
- gap: 20px;
+
 
 
 
@@ -59,13 +58,21 @@
  align-items: center;
  justify-content: center;
  color: azure;
-
+ height: 100%;
  border: 2px solid var(--color-primary);
  border-radius: 10px;
  box-shadow: 0 0 10px rgb(248, 246, 246);
  padding: 15px;
+ backdrop-filter: blur(10px);
+ background-color: rgba(0, 0, 0, 0.3);
+ box-sizing: border-box;
 
+}
 
+.whyus__card-image {
+ width: 35px;
+ height: 35px;
+ object-fit: cover;
 }
 
 .whyus__card-title {

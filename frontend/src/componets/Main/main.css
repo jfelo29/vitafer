@@ -3,8 +3,8 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- gap: 100px;
- margin-bottom: 100px;
+ width: 100%;
+
 
 }
 
@@ -23,7 +23,7 @@
  max-width: 880px;
  text-align: center;
  line-height: 1.5;
-
+ padding-bottom: 50px;
 }
 
 .main__container {
@@ -38,7 +38,8 @@
  flex-direction: row;
  align-items: center;
  justify-content: center;
- gap: 100px;
+ gap: 30px;
+ max-width: 600px;
 }
 
 .main__scores {
@@ -52,6 +53,9 @@
  max-height: 80px;
  font-size: 10px;
  margin: auto;
+ margin-top: 50px;
+ margin-bottom: 100px;
+
 
 }
 
