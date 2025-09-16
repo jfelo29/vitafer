@@ -18,10 +18,21 @@ export default function Header() {
        Energía y Vitalidad Natural
       </h2>
       <p className="header__description">El suplemento de hierro más efectivo y fácil de absorber. Combate la anemia y recupera tu energía con nuestra fórmula premium desarrollada por especialistas.</p>
-      <button className="header__button">
-       <img src={cart} alt="imagen vitafer" className="header__image-button" />
-       Comprar ahora
-      </button>
+      <div className="header__buttons">
+       <a target="_blank" href=" https://mpago.la/2H3aPqC">
+        <button className="header__button"  >
+         <img src={cart} alt="imagen vitafer" className="header__image-button" />
+         Comprar ahora
+        </button>
+       </a>
+       <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123933206 ">
+        <button className="header__button"  >
+         <img src={cart} alt="imagen vitafer" className="header__image-button" />
+         Mas información
+        </button>
+       </a>
+      </div>
+
       <div className="header__promotion">
        <div className="header__certification">
         <img src={Certificado} alt="imagen vitafer" className="header__image-certification" />
