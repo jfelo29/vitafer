@@ -1,4 +1,4 @@
-import Header from "./componets/Header/header.jsx";
+import Header from "./componets/Header/Header.jsx";
 import Main from "./componets/Main/Main.jsx";
 
 import Footer from "./componets/footer/Footer.jsx";
