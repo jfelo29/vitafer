@@ -1,6 +1,6 @@
 import vitafer from "../../../images/vitafer.png";
 import cart from "../../../images/shopIcon.png";
-import Certificado from "../../../images/Certificado.png";
+import Certificado from "../../../images/certificado.png";
 import shipping from "../../../images/shipping.png";
 
 
