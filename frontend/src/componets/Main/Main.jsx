@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import PreLoader from "../Preloader/Preloader.jsx";
 import Card from "../Card/Card.jsx";
-import CallToAction from "../CallToAction/callToAction.jsx";
+import CallToAction from "../CallToAction/CallToAction.jsx";
 import WhyUs from "../WhyUS/WhyUs.jsx";
 
 
