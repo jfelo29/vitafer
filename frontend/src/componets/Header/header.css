@@ -6,7 +6,7 @@
  height: 100vh;
  background: linear-gradient(to right, #f1c73d, #f25c05);
  transition: all 0.3s ease;
- gap: 100px;
+
 }
 
 .header__left {
@@ -155,7 +155,7 @@
 }
 
 
-@media screen and (max-width: 880px)and (min-width: 451px) {
+@media screen and (max-width: 1050px)and (min-width: 707px) {
  .header {}
 
  .header__container {
@@ -222,7 +222,7 @@
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 706px) {
  .header__container {
   flex-direction: column;
 

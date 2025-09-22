@@ -64,7 +64,7 @@
 
 }
 
-@media screen and (max-width: 880px) and (min-width: 451px) {
+@media screen and (max-width: 880px) and (min-width: 571px) {
  .card {
   width: 800px;
   height: 700px;
@@ -78,9 +78,14 @@
 
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 570px) {
+ .main__cards {
+  max-width: 350px;
+
+ }
+
  .card {
-  max-width: 400px;
+  max-width: 300px;
 
  }
 
@@ -96,7 +101,7 @@
   justify-content: center;
   width: 250px;
   margin-left: 35px;
-  /*no se porque aca no funciono el display flex*/
+
 
 
  }

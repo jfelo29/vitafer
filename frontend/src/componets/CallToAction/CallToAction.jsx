@@ -1,6 +1,6 @@
 export default function CallToAction() {
  return (
-  <section>
+  <section className="calltoaction">
    <div className="calltoaction__container">
     <h2 className="calltoaction__title">
      ¿Listo para Recuperar tu Energía?
