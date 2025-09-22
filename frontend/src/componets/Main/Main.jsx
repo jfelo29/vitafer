@@ -4,6 +4,7 @@ import PreLoader from "../Preloader/Preloader.jsx";
 import Card from "../Card/Card.jsx";
 import CallToAction from "../CallToAction/CallToAction.jsx";
 import WhyUs from "../WhyUS/WhyUs.jsx";
+import whatsapp from "../../../images/whatsapporange.png";
 
 
 export default function Main() {
@@ -52,6 +53,15 @@ export default function Main() {
     </div>
 
 
+
+   </div>
+   <div>
+    <a href="https://api.whatsapp.com/send?phone=5491123933206"
+     target="_blank"
+     rel="noopener noreferrer"
+     className="whatsapp-fixed">
+     <img src={whatsapp} alt="logo de whatsapp" />
+    </a>
    </div>
    <WhyUs />
    <CallToAction />

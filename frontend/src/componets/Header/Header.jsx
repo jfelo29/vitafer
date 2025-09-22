@@ -2,6 +2,7 @@ import vitafer from "../../../images/vitafer.png";
 import cart from "../../../images/shopIcon.png";
 import Certificado from "../../../images/certificado.png";
 import shipping from "../../../images/shipping.png";
+import whatapp from "../../../images/whatsapporange.png";
 
 
 export default function Header() {
@@ -27,7 +28,7 @@ export default function Header() {
        </a>
        <a target="_blank" href="https://api.whatsapp.com/send?phone=5491123933206 ">
         <button className="header__button"  >
-         <img src={cart} alt="imagen vitafer" className="header__image-button" />
+         <img src={whatapp} alt="imagen vitafer" className="header__image-button" />
          Mas información
         </button>
        </a>

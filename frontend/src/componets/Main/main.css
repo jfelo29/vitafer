@@ -20,7 +20,7 @@
  color: rgb(90, 86, 86);
  margin-bottom: auto;
  margin-top: auto;
- max-width: 880px;
+
  text-align: center;
  line-height: 1.5;
  padding-bottom: 50px;
@@ -107,6 +107,22 @@
  margin-bottom: 50px
 }
 
+.whatsapp-fixed {
+ position: fixed;
+ bottom: 100px;
+ right: 50px;
+}
+
+.whatsapp-fixed img {
+ width: 100px;
+ height: 75px;
+ cursor: pointer;
+}
+
+.whatsapp-fixed:hover {
+ transform: scale(1.05);
+}
+
 @media screen and (max-width: 880px-) and (min-width: 451px) {
  .main {
   width: 880px;
@@ -179,5 +195,11 @@
 
  .main__sold-subtitle {
   font-size: 12px;
+ }
+
+ .whatsapp-fixed img {
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
  }
 }

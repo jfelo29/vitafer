@@ -61,12 +61,7 @@ export default function Footer() {
        +54 9 11 66465694
       </p>
      </div>
-     <div className="footer__info">
-      <img src={mailImg} alt="horario" className="footer__image" />
-      <p className="footer__name-subtitle">
-       nfo@vitafer-l.com
-      </p>
-     </div>
+
      <div className="footer__info">
       <img src={locationImg} alt="ubicacion" className="footer__image" />
       <p className="footer__name-subtitle">

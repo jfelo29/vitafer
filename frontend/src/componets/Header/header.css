@@ -162,7 +162,6 @@
 
   height: 120vh;
   background: linear-gradient(to right, #f1c73d, #f25c05);
-  transition: all 0.3s ease;
   gap: 50px;
 
  }
@@ -239,6 +238,7 @@
   margin-left: 0px;
   padding-left: 22px;
   justify-content: center;
+  margin-top: 0px;
  }
 
  .header__subtitle {
