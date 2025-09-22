@@ -69,14 +69,14 @@
  transition: filter 0.3s ease;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 8800px) and (min-width: 451px) {
  .calltoaction__subtitle {
   width: 500px;
  }
 }
 
 @media screen and (max-width: 450px) {
- .calltoaction__container {}
+
 
  .calltoaction__title {
   display: flex;
@@ -88,15 +88,9 @@
  }
 
  .calltoaction__subtitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: auto;
-  max-width: 350px;
   font-size: 15px;
-
-
+  padding-left: 0px;
+  padding-right: 0px;
  }
 
  .calltoaction__buttons {
